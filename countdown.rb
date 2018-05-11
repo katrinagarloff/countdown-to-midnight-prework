@@ -9,4 +9,12 @@ end
 "HAPPY NEW YEAR!"
 end
 
-countdown_with_sleep(num)
+def countdown_with_sleep(num)
+   count = 0
+  while num > count 
+  puts "#{num} SECOND(S
+  sleep
+  num -= 1
+end
+"HAPPY NEW YEAR!" 
+end
